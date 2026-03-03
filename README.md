@@ -4,8 +4,6 @@ Make & Munch is a cozy recipe website focused on seasonal comfort foods and begi
 
 ********************** Purpose **********************
 
-
-
 This project was created to practice semantic HTML structure, layout design, and styling techniques while building a themed website.
 
 ********************** Target Audience **********************
