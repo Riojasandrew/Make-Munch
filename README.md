@@ -3,6 +3,7 @@
 Make & Munch is a cozy recipe website focused on seasonal comfort foods and beginner-friendly meals. The goal of this project is to create an organized, easy-to-navigate cooking website using structured HTML and styled with CSS.
 
 ********************** Purpose **********************
+
 This project was created to practice semantic HTML structure, layout design, and styling techniques while building a themed website.
 
 ********************** Target Audience **********************
