@@ -1,22 +1,18 @@
-********************** Make & Munch **********************
+Make & Munch — Project Update (README)
+Updates Made Today
 
-Make & Munch is a cozy recipe website focused on seasonal comfort foods and beginner-friendly meals. The goal of this project is to create an organized, easy-to-navigate cooking website using structured HTML and styled with CSS.
+Added new pages: breakfast.html, desserts.html, contact.html, build_setup
 
-********************** Purpose **********************
+Created recipe layouts for:
 
-This project was created to practice semantic HTML structure, layout design, and styling techniques while building a themed website.
+Cinnamon Apple French Toast Skillet
 
-********************** Target Audience **********************
-- Beginner cooks
-- College students
-- Anyone looking for simple meal ideas
+Strawberry Cheesecake Cups
 
-********************** Features Soon To Be Added **********************
-- Seasonal specials
-- Breakfast and dessert ideas
-- Clean layout structure
-- Responsive design elements
+Reused the flexbox recipe layout to place ingredients on the left and images on the right.
 
-********************** Technologies Used **********************
-- HTML5
-- CSS3
+Added navigation links between pages (Home and Contact).
+
+Added a Back to Home button on the contact page.
+
+Improved CSS layout spacing for recipe sections and images.
