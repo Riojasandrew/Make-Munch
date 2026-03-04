@@ -1,0 +1,195 @@
+/***************************************** Style for the page ***********************************/
+/* background and font */ 
+body{
+    background-color: #f5efe6;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+/* main styling */
+/* This will center the content as well */
+/* width 80% IF screen is medium but, max-width when at huge view */
+.main-content{
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+}
+/* fits image to container */
+/* border-radius helps creates ofter corners */ 
+.featured-img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+/* here we are splitting text and image to user. Left to right */
+.featured-inner{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+/* helps give space text and image for user */
+.featured-text{
+    flex: 1;
+}
+
+.featured-image{
+    flex: 1;
+}
+
+/* style design for my button */
+.btn{
+    /*  padding, brown button color design, soft corners, and removes underline */
+    display: inline-block;
+    background-color: #8b5e3c;
+    color: #f5efe6;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+/**********************************************************************/
+
+/******************************* Setup Category ***********************************/
+/* category-row will display to the user a vertical layout */
+.category-row{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+/* This prevent category-row from expending pass screen view*/
+.category-board{
+    flex: 1;
+}
+/* Simliar to featured img */
+/* Future FIX Holiday Speical position */
+.category-img{
+    width: 100%;
+    object-fit: cover;
+    height: 200px;
+    display: block;
+    border-radius: 8px;
+}
+/* 
+From code 68 to 87 dark layer image, centers names
+*/
+.category-board{
+    flex: 1 1 0;
+    min-width: 0;
+    position: relative;
+    text-decoration: none;
+}
+
+.category-overlay{
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.35);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+/* color design for name holiday, dinner, dessert, etc.. */
+.category-name{
+    color: #f5efe6;
+    margin: 0;
+    font-size: 18px;
+}
+
+/******************************** Title Desing ************************************/
+/* coloring and font-size */
+.site-title{
+    color: #7a2e2e;
+    margin: 0;
+    font-size: 36px;
+}
+.site-tagline{
+    color: #5b3a29;
+    margin: 10px 0;
+}
+/* align with tagline */
+.decor-line{
+    border: none;
+    height: 1px;
+    background: #5b3a29;
+    width: 60%;
+    margin: 8px 0;
+}
+
+/**************************** Side by Side Setup for User ****************************/
+/* cookbook layout */
+.recipe-layout{
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+/* helps give space for ingredients and imageA */
+.recipe-ingredients{
+    flex: 1;
+}
+
+.recipe-image{
+    flex: 1;
+}
+.recipe-img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+
+
+/* Small change */
+.site-footer{
+    text-align: center;
+}
+
+/* Small improvement for <br> replacement */
+section{
+    margin-top: 40px;
+}
+
+.recipe-title{
+    margin-bottom: 10px;
+}
+
+/* navigation links and style*/
+.site-nav{
+    margin-top: 10px;
+}
+
+.site-nav a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: #5b3a29;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/*******************************************************************************/
+/************************************ Contact.html *****************************/
+.contact-section{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.contact-form{
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: auto;
+}
+
+.contact-form input{
+    padding: 8px;
+    border: 1px solid;
+    border-radius: 4px;
+}
+
+.contact-text{
+    max-width: 500px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    text-align: center;
+    margin: auto;
+}
